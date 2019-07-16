@@ -1,5 +1,10 @@
-fruits = ['apple', 'banana', 'cherry']
+def spam(divideBy):
+    try:
+        return 42 / divideBy
+    except ZeroDivisionError:
+        print('Error: Invalid argument.')
 
-x = fruits.pop()
-
-print(x)
+print(spam(10))
+print(spam(2))
+print(spam(0))
+print(spam(11))

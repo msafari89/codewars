@@ -14,3 +14,6 @@ copied_list = list.copy()
 **reverse every character**
 reversed = "".join(reversed(word))
 
+**reverse a list**
+list(reversed(mylist))
+
